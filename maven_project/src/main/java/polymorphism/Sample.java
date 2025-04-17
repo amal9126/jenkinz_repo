@@ -16,9 +16,9 @@ public class Sample extends Par {
 
     @Override
     public void disp(int a, int b) {
-       // super.disp(5, 6);  Call the Parents's disp method
+       super.disp(5, 6);  //Call the Parents's disp method
     	
-    	System.out.println("Child");
+    	System.out.println("Child: a = " + a + ", b = " + b);
         
     }
 }
